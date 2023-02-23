@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Noto+Sans&display=swap');
+
+.hero-box {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-top: 348px;
+    font-family: 'Roboto';
+    width: 586px;
+}
+
+.hero-box h1 {
+    font-size: 69px;
+}
+
+.hero-box p {
+    height: 102px;
+    font-size: 20px;
+}
+
+.hero-box span {
+    color: rgba(255, 116, 38, 1);
+}
+
+.input-box {
+    height: 79px;
+}
+
+.decorSide {
+  
+box-sizing: border-box;
+
+position: absolute;
+
+left: 45%;
+top: 35%;
+
+
+}
+
+
+.search-box input::placeholder {
+    font-size: 20px;
+    align-items: center;
+
+}
+
+

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from   '../src/components/Header'
+import Hero from './section/Hero/Hero'
+import PurpleBox from './section/purpleBox/PurpleBox';
+import TracksBox from './section/TracksBox/TracksBox';
+import Premium from './section/premium/Premium';
+import MainBody from './section/mainBody/MainBody';
+import Footer from './section/footer/Footer';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main-container'>
+      <Header />
+      <Hero />
+      <PurpleBox />
+      <TracksBox />
+      <Premium />
+      <MainBody />
+      <Footer />
     </div>
   );
 }

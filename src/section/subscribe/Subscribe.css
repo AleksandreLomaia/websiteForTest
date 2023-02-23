@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+.subscribe-container {
+    width: 1432px;
+    height: 429px;
+    left: 244px;
+    top: 4168px;
+    background: #4D2C5E;
+    border-radius: 14px;
+    text-align: center;
+    margin-top: 159px;
+}
+
+.subscribe-container h1 {
+    font-size: 40px;
+    color: white;
+    margin-top: 94px;
+    margin-bottom: 13px;
+}
+
+.subscribe-container small {
+    font-family: 'Poppins' 'Sans-serif';
+    font-size: 20px;
+    color: white;
+}
+
+.input2 {
+    width: 610px;
+    height: 80px;
+    border-radius: 62px;
+    margin-top: 41px;
+}
+
+.input2::placeholder {
+    position: relative;
+    font-family: 'Poppins' 'Sans-serif';
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+
+.button {
+    position: absolute;
+    left: 1057px;
+    top: 4479px;
+    width: 197px;
+    height: 76px;
+    background: #FF7426;
+    border-radius: 62px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+.eclipse {
+    position: absolute;
+    left: 262px;
+}
+
+.eclipse2 {
+    position: absolute;
+    left: 209px;
+    top: 4255px;
+}
+
+.eclipse3 {
+    position: absolute;
+    left: 1477px;
+    top: 4256px;
+}
+
+.eclipse4 {
+    position: absolute;
+    left: 1507px;
+    top: 4256px;
+}
+
+.lamp2 {
+    position: absolute;
+    left: 1351px;
+    top: 4496px;
+}
+
+
+

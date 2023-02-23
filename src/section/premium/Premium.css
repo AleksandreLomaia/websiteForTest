@@ -1,0 +1,70 @@
+.prem-box {
+    background-color: #FDF8EE;
+    width: 1920px;
+    height: 636px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.cira {
+    position: relative;
+    left: -224px;
+    margin-top: 100px;
+    height: 644px;
+    width: 516px;
+}
+
+
+.prem-container h1 {
+    color: black;
+    font-size: 69px;
+}
+
+.prem-container span {
+    color: #FF7426;
+}
+
+.heartLogo {
+    position: relative;
+    width: 102px;
+    height: 101px;
+    top: 0px;
+    left: 0px;
+}
+
+.heartsBox {
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+.hearts {
+    position: absolute;
+    z-index: 2;
+    top: 25px;
+    left: 25px;
+}
+
+.logo-box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 34px;
+}
+
+.text-box {
+    margin-left: 23px;
+}
+
+.text-box h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text-box small {
+    font-size: 22px;
+    columns: #8A8A8A;
+}

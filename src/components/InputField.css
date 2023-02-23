@@ -1,0 +1,40 @@
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 568px;
+    height: 79px;
+}
+
+
+.input-field {
+    position: absolute;
+    border-radius: 96px;
+    padding-left: 57px;
+    font-size: 20px;
+    width: 508px;
+    height: 79px;
+    z-index: 1;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.Logo {
+    position: relative;
+    left: 21px;
+    z-index: 2;
+}
+
+
+.continue {
+    background-color: #4D2C5E;
+    color: #FFF;
+    font-size: 25px;
+    width: 158px;
+    height: 79px;
+    border-radius: 69px;
+    position: relative;
+    z-index: 2;
+}

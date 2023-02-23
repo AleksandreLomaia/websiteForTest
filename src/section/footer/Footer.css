@@ -1,0 +1,52 @@
+.main-footer {
+    width: 1920px;
+    height: 411px;
+    background: #FDF8EE;
+    margin-top: 126px;
+    padding-top: 41px;
+}
+
+
+.navigation-box {
+    display: flex;
+    flex-direction: row;
+    height: 337px;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid #B7B7B7;
+    
+}
+
+.logoBox {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 24px;
+}
+
+.bookLogo {
+    margin-right: 7px;
+}
+
+.colum-box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 18%;
+}
+
+.colum-box h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.colum-box small {
+    font-size: 18px;
+    color: #606060;
+    padding-bottom: 27px;
+}
+
+.copyRight {
+    text-align: center;
+    padding-top: 21px;
+}
+

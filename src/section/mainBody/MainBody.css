@@ -1,0 +1,140 @@
+.main-body {
+    width: 1920;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.studentsSay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 0px 40px 0px;
+}
+
+.sphere-shadow {
+    position: absolute;
+    width: 960px;
+    height: 778px;
+    left: -28px;
+    top: 2870px;
+    z-index: 1;
+}
+
+.sphere-shadow2 {
+    position: absolute;
+    width: 960px;
+    height: 778px;
+    left: 953px;
+    top: 3067px;
+}
+
+.line {
+    position: absolute;
+    top: 3356px;
+}
+
+.arrow2 {
+    position: absolute;
+    top: 3285px;
+    left: 119px;
+}
+
+.planet {
+    position: absolute;
+    top: 3317px;
+    left: 1654px;
+}
+
+.students-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.individual {
+    margin: 10px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 88px rgba(0, 0, 0, 0.05);
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    height: 47px;
+}
+
+.student1 {
+    width: 47px;
+    height: 47px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.02em;
+    align-items: self-start;
+    justify-content: center;
+}
+
+.text-box h1 {
+    font-size: 17px;
+}
+
+.text-box small {
+    font-size: 13px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-box {
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    width: 490px;
+    height: 457px;
+    border-radius: 14px;
+    margin: 15px;
+}
+
+.imgPlace {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.text-container h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.text-container p {
+    margin-top: 5px;
+    color: #868686;
+}
+
+.text-container small {
+    color: #ACACAC;
+}
+
+.icon-box {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.icon-box span {
+    font-size: 18px;
+    color: #FF7426;
+    font-weight: bold;
+}
+
+.linkdin {
+    padding-left: 10px;
+}
+
+
+
+

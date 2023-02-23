@@ -1,0 +1,68 @@
+.purple-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 1432px;
+    height: 277px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 244px;
+    top: 948px;
+    background-color: #4D2C5E;
+    border-radius: 14px;
+}
+
+.purple-container h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.purple-container p {
+    color:rgba(255, 255, 255, 0.6);
+
+}
+
+
+.skills-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 419px;
+    margin: none;
+}
+
+.img1 {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.img2 {
+    position: absolute;
+    z-index: 2;
+    top: 35px;
+    left: 25px;
+}
+
+.img3 {
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 22px;
+}
+
+.purple-container h1 {
+    font-size: 28px;
+}
+
+.purple-container p {
+    font-size: 15px;
+}
+
+.text-container {
+    margin-left: 10px;
+}
+

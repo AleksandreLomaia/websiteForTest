@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Noto+Sans&display=swap');
+
+
+.navBar-contaniner {
+    display: flex;
+    flex-direction: row;   
+    padding-left: 10%; 
+    padding-top: 1.2%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar-list {
+    font-family: 'Roboto';
+    font-size: 18px;
+    display: flex;  
+}
+
+.navBar-list a {
+    margin: 10px;
+    text-decoration: none;
+    color: #1D1D1D;
+    cursor: pointer;
+}
+
+.sign-in {
+width: 191px;
+height: 65px;
+margin-right: 195px;
+color: #FFF;
+font-weight: bold;
+background: #4D2C5E;
+border-radius: 218px;
+cursor: pointer;
+}
